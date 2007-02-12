@@ -1,5 +1,5 @@
 Summary:	pportman - parallel port manager
-Summary(pl):	pportman - menadøer portu rÛwnoleg≥ego
+Summary(pl.UTF-8):   pportman - menad≈ºer portu r√≥wnoleg≈Çego
 Name:		pportman
 Version:	0.1
 Release:	1
@@ -14,9 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 pportman is a simple and nice parallel port manager. Writed in ncurses.
 
-%description -l pl
-pportman to prosty i przyjemny w obs≥udzÍ menadøer portu rÛwnoleg≥ego. 
-Zosta≥ napisany w ncurses.
+%description -l pl.UTF-8
+pportman to prosty i przyjemny w obs≈Çudzƒô menad≈ºer portu r√≥wnoleg≈Çego. 
+Zosta≈Ç napisany w ncurses.
 
 %prep
 %setup -q
