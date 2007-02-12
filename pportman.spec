@@ -1,5 +1,5 @@
 Summary:	pportman - parallel port manager
-Summary(pl.UTF-8):   pportman - menadżer portu równoległego
+Summary(pl.UTF-8):	pportman - menadżer portu równoległego
 Name:		pportman
 Version:	0.1
 Release:	1
