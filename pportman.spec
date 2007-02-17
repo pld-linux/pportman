@@ -8,6 +8,8 @@ Group:		Applications
 Source0:	http://autko.net/~jackass/pportman/%{name}-%{version}.tar.gz
 # Source0-md5:	93d4dc561ac1f8da185e2e671436c014
 URL:		http://autko.net/~jackass/pportman/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -26,8 +28,7 @@ Został napisany w ncurses.
 %{__autoconf}
 %{__automake}
 %configure
-%{__make} \
-	CFlAGS="%{rpmcflags}"
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
